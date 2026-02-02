@@ -1,6 +1,4 @@
-# worktree-env
-
-Copy `.env` files into [Codex](https://openai.com/index/introducing-the-codex-app/) macOS app worktrees.
+# How to Copy `.env` files into [Codex](https://openai.com/index/introducing-the-codex-app/) macOS app worktrees.
 
 ## The problem
 
