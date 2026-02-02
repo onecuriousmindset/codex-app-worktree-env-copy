@@ -32,7 +32,7 @@ MAIN_PROJECT="/path/to/your-project"
 4. Copy the path to the script in the setup part
 
 ```
-"./scripts/copy-env.sh"
+./scripts/copy-env.sh
 ```
 <img width="800" height="140" alt="Screenshot 2026-02-02 at 23 26 42" src="https://github.com/user-attachments/assets/85e8189a-441b-45d9-935d-25bef572d1a7" />
 
