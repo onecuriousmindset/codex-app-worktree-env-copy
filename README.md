@@ -1,6 +1,6 @@
 # worktree-env
 
-Copy `.env` files into [Codex](https://openai.com/index/introducing-codex/) macOS app worktrees.
+Copy `.env` files into [Codex](https://openai.com/index/introducing-the-codex-app/) macOS app worktrees.
 
 ## The problem
 
@@ -25,13 +25,16 @@ Open `scripts/copy-env.sh` and set `MAIN_PROJECT` to the absolute path of your m
 MAIN_PROJECT="/path/to/your-project"
 ```
 
-### 3. Tell Codex to run it
+### 3. Create Codex Environment
+1. From the sidebar, in the bottom left, click "Personal" to open settings
+2. Then click "Environements" from the settings sidebar
+3. Create or open the existing env for your project.
+4. Copy the path to the script in the setup part
 
 ```
-"/Users/you/Code/your-project/scripts/copy-env.sh"
+"./scripts/copy-env.sh"
 ```
-
-> The `script` path must be **absolute** and point to the copy inside your main project, not the worktree.
+<img width="800" height="140" alt="Screenshot 2026-02-02 at 23 26 42" src="https://github.com/user-attachments/assets/85e8189a-441b-45d9-935d-25bef572d1a7" />
 
 That's it. Next time Codex spins up a worktree, your `.env` files will be there.
 
